@@ -19,11 +19,11 @@ i use this website to view the result, but there's a ton of websites that work\
 https://www.minecraftskins.net/skineditor
 
 ## info
-***the only thing you need to change are contents of the call function located in call.cpp***\
+***the only thing you need to change are contents of the call function located in call.cpp***
 
 you can check example call functions in call_examples\
 the default look of the skin is full black on the inner layer and trasparent on outer layer\
-you can change boolean _slim_ to change between default skin and slim skin\
+you can change boolean _slim_ to change between default skin and slim skin
 
 ## here are some minecraft skin rules:
 inner layer can't have transparency (alpha channel is always 255)\
