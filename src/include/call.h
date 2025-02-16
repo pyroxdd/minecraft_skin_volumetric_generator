@@ -1,8 +1,6 @@
 #pragma once
 
-#include <FastNoiseLite.h>
-
-#include <cmath>
+#include <helper.h>
 
 extern bool slim;
 

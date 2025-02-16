@@ -18,28 +18,6 @@ struct plane {
 
 std::vector<plane> planes;
 
-//two point distance integer
-// double tpdi(ivec3 a, ivec3 b) {
-//     return sqrt(pow(b.x - a.x, 2) + pow(b.y - a.y, 2) + pow(b.z - a.z, 2));
-// }
-
-// color dir_to_color(DIRECTION dir){
-//     switch (dir){
-//         case LEFT:
-//             return color{.r = 0, .g = 0, .b = 255, .a = 255};
-//         case RIGHT:
-//             return color{.r = 255, .g = 0, .b = 255, .a = 255};
-//         case UP:
-//             return color{.r = 0, .g = 255, .b = 0, .a = 255};
-//         case DOWN:
-//             return color{.r = 255, .g = 0, .b = 0, .a = 255};
-//         case FRONT:
-//             return color{.r = 255, .g = 255, .b = 0, .a = 255};
-//         case BACK:
-//             return color{.r = 0, .g = 255, .b = 255, .a = 255};
-//     }
-// }
-
 void add_plane(int width, int height, int inner_dest_x, int inner_dest_y, int outer_dest_x, int outer_dest_y, int w_x, int w_y, int w_z, DIRECTION dir, PART part){
     plane p;
     p.size = {.x = width, .y = height};
@@ -171,7 +149,6 @@ int main( int argc, char *argv[] ){
     add_plane(4, 12, 8, 20, 8, 36, -2, 0, -20, RIGHT, RIGHT_LEG);
     add_plane(4, 12, 12, 20, 12, 36, -2, -4, -20, BACK, RIGHT_LEG);
 
-    // printf("%d\n", planes[0].size.x);
     for (int x = 0; x < SIZE; x++){
         for (int y = 0; y < SIZE; y++){
             color *c = &(pixels[y * SIZE + x]);
@@ -185,13 +162,13 @@ int main( int argc, char *argv[] ){
         set_plane(planes[i]);
     }
 
-    for (int x = 0; x < SIZE; x++){//just fixing what would minecraft fix anyways
-        //should change it, so i can also fix transparency in inner layer
-        for (int y = 0; y < SIZE; y++){
-            color *c = &(pixels[y * SIZE + x]);
-            if (c->a != 0) c->a = 255;
-            else c->a = 0;
-        }
-    }
+    // for (int x = 0; x < SIZE; x++){//just fixing what would minecraft fix anyways
+    //     //should change it, so i can also fix transparency in inner layer
+    //     for (int y = 0; y < SIZE; y++){
+    //         color *c = &(pixels[y * SIZE + x]);
+    //         if (c->a != 0) c->a = 255;
+    //         else c->a = 0;
+    //     }
+    // }
     write("out/out.png", pixels, SIZE, SIZE);
 }
