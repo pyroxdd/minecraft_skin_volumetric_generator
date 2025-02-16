@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-9yjs48"
-      binary: "C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-9yjs48"
+      source: "C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-iu8dx3"
+      binary: "C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-iu8dx3"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/msys64/mingw64/bin/clang-scan-deps.exe"
       CMAKE_C_FLAGS: ""
@@ -72,19 +72,19 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-9yjs48'
+        Change Dir: 'C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-iu8dx3'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_50f07/fast
-        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_50f07.dir\\build.make CMakeFiles/cmTC_50f07.dir/build
-        mingw32-make[1]: Entering directory 'C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-9yjs48'
-        Building C object CMakeFiles/cmTC_50f07.dir/CMakeCCompilerABI.c.obj
-        C:\\msys64\\mingw64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_50f07.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_50f07.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_50f07.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d7fdf/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d7fdf.dir\\build.make CMakeFiles/cmTC_d7fdf.dir/build
+        mingw32-make[1]: Entering directory 'C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-iu8dx3'
+        Building C object CMakeFiles/cmTC_d7fdf.dir/CMakeCCompilerABI.c.obj
+        C:\\msys64\\mingw64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_d7fdf.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_d7fdf.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_d7fdf.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
         clang version 19.1.7
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/msys64/mingw64/bin
          (in-process)
-         "C:/msys64/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-9yjs48 -v -fcoverage-compilation-dir=C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-9yjs48 -resource-dir C:/msys64/mingw64/lib/clang/19 -dependency-file "CMakeFiles\\\\cmTC_50f07.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_50f07.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/lib/clang/19/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_50f07.dir\\\\CMakeCCompilerABI.c.obj" -x c "C:\\\\Program Files\\\\CMake\\\\share\\\\cmake-3.29\\\\Modules\\\\CMakeCCompilerABI.c"
+         "C:/msys64/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-iu8dx3 -v -fcoverage-compilation-dir=C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-iu8dx3 -resource-dir C:/msys64/mingw64/lib/clang/19 -dependency-file "CMakeFiles\\\\cmTC_d7fdf.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_d7fdf.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/lib/clang/19/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_d7fdf.dir\\\\CMakeCCompilerABI.c.obj" -x c "C:\\\\Program Files\\\\CMake\\\\share\\\\cmake-3.29\\\\Modules\\\\CMakeCCompilerABI.c"
         clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target x86_64-w64-windows-gnu
         ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include"
         ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/usr/include"
@@ -93,18 +93,18 @@ events:
          C:/msys64/mingw64/lib/clang/19/include
          C:/msys64/mingw64/include
         End of search list.
-        Linking C executable cmTC_50f07.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_50f07.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_50f07.dir/objects.a
-        C:\\msys64\\mingw64\\bin\\llvm-ar.exe qc CMakeFiles\\cmTC_50f07.dir/objects.a @CMakeFiles\\cmTC_50f07.dir\\objects1.rsp
-        C:\\msys64\\mingw64\\bin\\clang.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_50f07.dir/objects.a -Wl,--no-whole-archive -o cmTC_50f07.exe -Wl,--out-implib,libcmTC_50f07.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Linking C executable cmTC_d7fdf.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d7fdf.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_d7fdf.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\llvm-ar.exe qc CMakeFiles\\cmTC_d7fdf.dir/objects.a @CMakeFiles\\cmTC_d7fdf.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\clang.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_d7fdf.dir/objects.a -Wl,--no-whole-archive -o cmTC_d7fdf.exe -Wl,--out-implib,libcmTC_d7fdf.dll.a -Wl,--major-image-version,0,--minor-image-version,0
         clang version 19.1.7
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/msys64/mingw64/bin
-         "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_50f07.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v --whole-archive "CMakeFiles\\\\cmTC_50f07.dir/objects.a" --no-whole-archive --out-implib libcmTC_50f07.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+         "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_d7fdf.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v --whole-archive "CMakeFiles\\\\cmTC_d7fdf.dir/objects.a" --no-whole-archive --out-implib libcmTC_d7fdf.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         GNU ld (GNU Binutils) 2.44
-        mingw32-make[1]: Leaving directory 'C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-9yjs48'
+        mingw32-make[1]: Leaving directory 'C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-iu8dx3'
         
       exitCode: 0
   -
@@ -135,19 +135,19 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-9yjs48']
+        ignore line: [Change Dir: 'C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-iu8dx3']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_50f07/fast]
-        ignore line: [C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_50f07.dir\\build.make CMakeFiles/cmTC_50f07.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-9yjs48']
-        ignore line: [Building C object CMakeFiles/cmTC_50f07.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\msys64\\mingw64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_50f07.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_50f07.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_50f07.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d7fdf/fast]
+        ignore line: [C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d7fdf.dir\\build.make CMakeFiles/cmTC_d7fdf.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-iu8dx3']
+        ignore line: [Building C object CMakeFiles/cmTC_d7fdf.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\msys64\\mingw64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_d7fdf.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_d7fdf.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_d7fdf.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"]
         ignore line: [clang version 19.1.7]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/msys64/mingw64/bin]
         ignore line: [ (in-process)]
-        ignore line: [ "C:/msys64/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-9yjs48 -v -fcoverage-compilation-dir=C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-9yjs48 -resource-dir C:/msys64/mingw64/lib/clang/19 -dependency-file "CMakeFiles\\\\cmTC_50f07.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_50f07.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/lib/clang/19/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_50f07.dir\\\\CMakeCCompilerABI.c.obj" -x c "C:\\\\Program Files\\\\CMake\\\\share\\\\cmake-3.29\\\\Modules\\\\CMakeCCompilerABI.c"]
+        ignore line: [ "C:/msys64/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-iu8dx3 -v -fcoverage-compilation-dir=C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-iu8dx3 -resource-dir C:/msys64/mingw64/lib/clang/19 -dependency-file "CMakeFiles\\\\cmTC_d7fdf.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_d7fdf.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/lib/clang/19/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_d7fdf.dir\\\\CMakeCCompilerABI.c.obj" -x c "C:\\\\Program Files\\\\CMake\\\\share\\\\cmake-3.29\\\\Modules\\\\CMakeCCompilerABI.c"]
         ignore line: [clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target x86_64-w64-windows-gnu]
         ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include"]
         ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/usr/include"]
@@ -156,22 +156,22 @@ events:
         ignore line: [ C:/msys64/mingw64/lib/clang/19/include]
         ignore line: [ C:/msys64/mingw64/include]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_50f07.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_50f07.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_50f07.dir/objects.a]
-        ignore line: [C:\\msys64\\mingw64\\bin\\llvm-ar.exe qc CMakeFiles\\cmTC_50f07.dir/objects.a @CMakeFiles\\cmTC_50f07.dir\\objects1.rsp]
-        ignore line: [C:\\msys64\\mingw64\\bin\\clang.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_50f07.dir/objects.a -Wl --no-whole-archive -o cmTC_50f07.exe -Wl --out-implib libcmTC_50f07.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Linking C executable cmTC_d7fdf.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d7fdf.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_d7fdf.dir/objects.a]
+        ignore line: [C:\\msys64\\mingw64\\bin\\llvm-ar.exe qc CMakeFiles\\cmTC_d7fdf.dir/objects.a @CMakeFiles\\cmTC_d7fdf.dir\\objects1.rsp]
+        ignore line: [C:\\msys64\\mingw64\\bin\\clang.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_d7fdf.dir/objects.a -Wl --no-whole-archive -o cmTC_d7fdf.exe -Wl --out-implib libcmTC_d7fdf.dll.a -Wl --major-image-version 0 --minor-image-version 0]
         ignore line: [clang version 19.1.7]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/msys64/mingw64/bin]
-        link line: [ "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_50f07.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v --whole-archive "CMakeFiles\\\\cmTC_50f07.dir/objects.a" --no-whole-archive --out-implib libcmTC_50f07.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        link line: [ "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_d7fdf.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v --whole-archive "CMakeFiles\\\\cmTC_d7fdf.dir/objects.a" --no-whole-archive --out-implib libcmTC_d7fdf.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
           arg [C:/msys64/mingw64/bin/ld] ==> ignore
           arg [-m] ==> ignore
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_50f07.exe] ==> ignore
+          arg [cmTC_d7fdf.exe] ==> ignore
           arg [C:/msys64/mingw64/lib/crt2.o] ==> obj [C:/msys64/mingw64/lib/crt2.o]
           arg [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> obj [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
           arg [-LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0]
@@ -180,10 +180,10 @@ events:
           arg [-LC:/msys64/mingw64/lib] ==> dir [C:/msys64/mingw64/lib]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\\\cmTC_50f07.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\\\cmTC_d7fdf.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_50f07.dll.a] ==> ignore
+          arg [libcmTC_d7fdf.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -241,8 +241,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-h4iqzc"
-      binary: "C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-h4iqzc"
+      source: "C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-y6s8tc"
+      binary: "C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-y6s8tc"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/msys64/mingw64/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
@@ -252,19 +252,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-h4iqzc'
+        Change Dir: 'C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-y6s8tc'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_75f59/fast
-        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_75f59.dir\\build.make CMakeFiles/cmTC_75f59.dir/build
-        mingw32-make[1]: Entering directory 'C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-h4iqzc'
-        Building CXX object CMakeFiles/cmTC_75f59.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\msys64\\mingw64\\bin\\clang++.exe   -v -MD -MT CMakeFiles/cmTC_75f59.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_75f59.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\\cmTC_75f59.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_21d24/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_21d24.dir\\build.make CMakeFiles/cmTC_21d24.dir/build
+        mingw32-make[1]: Entering directory 'C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-y6s8tc'
+        Building CXX object CMakeFiles/cmTC_21d24.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\msys64\\mingw64\\bin\\clang++.exe   -v -MD -MT CMakeFiles/cmTC_21d24.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_21d24.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\\cmTC_21d24.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
         clang version 19.1.7
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/msys64/mingw64/bin
          (in-process)
-         "C:/msys64/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-h4iqzc -v -fcoverage-compilation-dir=C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-h4iqzc -resource-dir C:/msys64/mingw64/lib/clang/19 -dependency-file "CMakeFiles\\\\cmTC_75f59.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_75f59.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0/backward -internal-isystem C:/msys64/mingw64/include/c++/14.2.0 -internal-isystem C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/include/c++/14.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++ -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14/backward -internal-isystem C:/msys64/mingw64/lib/clang/19/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -fdeprecated-macro -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_75f59.dir\\\\CMakeCXXCompilerABI.cpp.obj" -x c++ "C:\\\\Program Files\\\\CMake\\\\share\\\\cmake-3.29\\\\Modules\\\\CMakeCXXCompilerABI.cpp"
+         "C:/msys64/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-y6s8tc -v -fcoverage-compilation-dir=C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-y6s8tc -resource-dir C:/msys64/mingw64/lib/clang/19 -dependency-file "CMakeFiles\\\\cmTC_21d24.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_21d24.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0/backward -internal-isystem C:/msys64/mingw64/include/c++/14.2.0 -internal-isystem C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/include/c++/14.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++ -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14/backward -internal-isystem C:/msys64/mingw64/lib/clang/19/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -fdeprecated-macro -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_21d24.dir\\\\CMakeCXXCompilerABI.cpp.obj" -x c++ "C:\\\\Program Files\\\\CMake\\\\share\\\\cmake-3.29\\\\Modules\\\\CMakeCXXCompilerABI.cpp"
         clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target x86_64-w64-windows-gnu
         ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++"
         ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"
@@ -294,18 +294,18 @@ events:
          C:/msys64/mingw64/lib/clang/19/include
          C:/msys64/mingw64/include
         End of search list.
-        Linking CXX executable cmTC_75f59.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_75f59.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_75f59.dir/objects.a
-        C:\\msys64\\mingw64\\bin\\llvm-ar.exe qc CMakeFiles\\cmTC_75f59.dir/objects.a @CMakeFiles\\cmTC_75f59.dir\\objects1.rsp
-        C:\\msys64\\mingw64\\bin\\clang++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_75f59.dir/objects.a -Wl,--no-whole-archive -o cmTC_75f59.exe -Wl,--out-implib,libcmTC_75f59.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Linking CXX executable cmTC_21d24.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_21d24.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_21d24.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\llvm-ar.exe qc CMakeFiles\\cmTC_21d24.dir/objects.a @CMakeFiles\\cmTC_21d24.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\clang++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_21d24.dir/objects.a -Wl,--no-whole-archive -o cmTC_21d24.exe -Wl,--out-implib,libcmTC_21d24.dll.a -Wl,--major-image-version,0,--minor-image-version,0
         clang version 19.1.7
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/msys64/mingw64/bin
-         "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_75f59.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v --whole-archive "CMakeFiles\\\\cmTC_75f59.dir/objects.a" --no-whole-archive --out-implib libcmTC_75f59.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+         "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_21d24.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v --whole-archive "CMakeFiles\\\\cmTC_21d24.dir/objects.a" --no-whole-archive --out-implib libcmTC_21d24.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         GNU ld (GNU Binutils) 2.44
-        mingw32-make[1]: Leaving directory 'C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-h4iqzc'
+        mingw32-make[1]: Leaving directory 'C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-y6s8tc'
         
       exitCode: 0
   -
@@ -342,19 +342,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-h4iqzc']
+        ignore line: [Change Dir: 'C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-y6s8tc']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_75f59/fast]
-        ignore line: [C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_75f59.dir\\build.make CMakeFiles/cmTC_75f59.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-h4iqzc']
-        ignore line: [Building CXX object CMakeFiles/cmTC_75f59.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\msys64\\mingw64\\bin\\clang++.exe   -v -MD -MT CMakeFiles/cmTC_75f59.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_75f59.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\\cmTC_75f59.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_21d24/fast]
+        ignore line: [C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_21d24.dir\\build.make CMakeFiles/cmTC_21d24.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-y6s8tc']
+        ignore line: [Building CXX object CMakeFiles/cmTC_21d24.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\msys64\\mingw64\\bin\\clang++.exe   -v -MD -MT CMakeFiles/cmTC_21d24.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_21d24.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\\cmTC_21d24.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [clang version 19.1.7]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/msys64/mingw64/bin]
         ignore line: [ (in-process)]
-        ignore line: [ "C:/msys64/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-h4iqzc -v -fcoverage-compilation-dir=C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-h4iqzc -resource-dir C:/msys64/mingw64/lib/clang/19 -dependency-file "CMakeFiles\\\\cmTC_75f59.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_75f59.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0/backward -internal-isystem C:/msys64/mingw64/include/c++/14.2.0 -internal-isystem C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/include/c++/14.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++ -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14/backward -internal-isystem C:/msys64/mingw64/lib/clang/19/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -fdeprecated-macro -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_75f59.dir\\\\CMakeCXXCompilerABI.cpp.obj" -x c++ "C:\\\\Program Files\\\\CMake\\\\share\\\\cmake-3.29\\\\Modules\\\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [ "C:/msys64/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-y6s8tc -v -fcoverage-compilation-dir=C:/minecraft_skin_volumetric_generator/build/CMakeFiles/CMakeScratch/TryCompile-y6s8tc -resource-dir C:/msys64/mingw64/lib/clang/19 -dependency-file "CMakeFiles\\\\cmTC_21d24.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_21d24.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0/backward -internal-isystem C:/msys64/mingw64/include/c++/14.2.0 -internal-isystem C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/include/c++/14.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++ -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14/backward -internal-isystem C:/msys64/mingw64/lib/clang/19/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -fdeprecated-macro -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_21d24.dir\\\\CMakeCXXCompilerABI.cpp.obj" -x c++ "C:\\\\Program Files\\\\CMake\\\\share\\\\cmake-3.29\\\\Modules\\\\CMakeCXXCompilerABI.cpp"]
         ignore line: [clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target x86_64-w64-windows-gnu]
         ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++"]
         ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"]
@@ -384,22 +384,22 @@ events:
         ignore line: [ C:/msys64/mingw64/lib/clang/19/include]
         ignore line: [ C:/msys64/mingw64/include]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_75f59.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_75f59.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_75f59.dir/objects.a]
-        ignore line: [C:\\msys64\\mingw64\\bin\\llvm-ar.exe qc CMakeFiles\\cmTC_75f59.dir/objects.a @CMakeFiles\\cmTC_75f59.dir\\objects1.rsp]
-        ignore line: [C:\\msys64\\mingw64\\bin\\clang++.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_75f59.dir/objects.a -Wl --no-whole-archive -o cmTC_75f59.exe -Wl --out-implib libcmTC_75f59.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Linking CXX executable cmTC_21d24.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_21d24.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_21d24.dir/objects.a]
+        ignore line: [C:\\msys64\\mingw64\\bin\\llvm-ar.exe qc CMakeFiles\\cmTC_21d24.dir/objects.a @CMakeFiles\\cmTC_21d24.dir\\objects1.rsp]
+        ignore line: [C:\\msys64\\mingw64\\bin\\clang++.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_21d24.dir/objects.a -Wl --no-whole-archive -o cmTC_21d24.exe -Wl --out-implib libcmTC_21d24.dll.a -Wl --major-image-version 0 --minor-image-version 0]
         ignore line: [clang version 19.1.7]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/msys64/mingw64/bin]
-        link line: [ "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_75f59.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v --whole-archive "CMakeFiles\\\\cmTC_75f59.dir/objects.a" --no-whole-archive --out-implib libcmTC_75f59.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        link line: [ "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_21d24.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v --whole-archive "CMakeFiles\\\\cmTC_21d24.dir/objects.a" --no-whole-archive --out-implib libcmTC_21d24.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
           arg [C:/msys64/mingw64/bin/ld] ==> ignore
           arg [-m] ==> ignore
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_75f59.exe] ==> ignore
+          arg [cmTC_21d24.exe] ==> ignore
           arg [C:/msys64/mingw64/lib/crt2.o] ==> obj [C:/msys64/mingw64/lib/crt2.o]
           arg [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> obj [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
           arg [-LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0]
@@ -408,10 +408,10 @@ events:
           arg [-LC:/msys64/mingw64/lib] ==> dir [C:/msys64/mingw64/lib]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\\\cmTC_75f59.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\\\cmTC_21d24.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_75f59.dll.a] ==> ignore
+          arg [libcmTC_21d24.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore

@@ -1,48 +1,32 @@
 CMakeFiles/main.dir/src/include/write.cpp.obj: \
   C:/minecraft_skin_volumetric_generator/src/include/write.cpp \
   C:/minecraft_skin_volumetric_generator/src/include/write.h \
-  C:/minecraft_skin_volumetric_generator/src/include/stb_image_write.h \
-  C:/msys64/mingw64/include/c++/14.2.0/stdlib.h \
-  C:/msys64/mingw64/include/c++/14.2.0/cstdlib \
+  C:/minecraft_skin_volumetric_generator/src/include/call.h \
+  C:/minecraft_skin_volumetric_generator/src/include/FastNoiseLite.h \
+  C:/msys64/mingw64/include/c++/14.2.0/cmath \
+  C:/msys64/mingw64/include/c++/14.2.0/bits/requires_hosted.h \
   C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
   C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h \
   C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/msys64/mingw64/include/c++/14.2.0/pstl/pstl_config.h \
-  C:/msys64/mingw64/include/stdlib.h C:/msys64/mingw64/include/corecrt.h \
-  C:/msys64/mingw64/include/_mingw.h \
+  C:/msys64/mingw64/include/c++/14.2.0/bits/cpp_type_traits.h \
+  C:/msys64/mingw64/include/c++/14.2.0/ext/type_traits.h \
+  C:/msys64/mingw64/include/math.h C:/msys64/mingw64/include/crtdefs.h \
+  C:/msys64/mingw64/include/corecrt.h C:/msys64/mingw64/include/_mingw.h \
   C:/msys64/mingw64/include/_mingw_mac.h \
   C:/msys64/mingw64/include/_mingw_secapi.h \
   C:/msys64/mingw64/lib/clang/19/include/vadefs.h \
   C:/msys64/mingw64/include/vadefs.h \
   C:/msys64/mingw64/include/sdks/_mingw_ddk.h \
+  C:/msys64/mingw64/include/c++/14.2.0/bits/std_abs.h \
+  C:/msys64/mingw64/include/stdlib.h \
   C:/msys64/mingw64/include/corecrt_wstdlib.h \
   C:/msys64/mingw64/lib/clang/19/include/limits.h \
-  C:/msys64/mingw64/include/limits.h C:/msys64/mingw64/include/crtdefs.h \
+  C:/msys64/mingw64/include/limits.h \
   C:/msys64/mingw64/include/sec_api/stdlib_s.h \
+  C:/msys64/mingw64/include/c++/14.2.0/stdlib.h \
   C:/msys64/mingw64/include/malloc.h \
   C:/msys64/mingw64/lib/clang/19/include/mm_malloc.h \
-  C:/msys64/mingw64/include/c++/14.2.0/bits/std_abs.h \
-  C:/msys64/mingw64/include/stdio.h \
-  C:/msys64/mingw64/include/corecrt_stdio_config.h \
-  C:/msys64/mingw64/include/_mingw_off_t.h \
-  C:/msys64/mingw64/include/swprintf.inl \
-  C:/msys64/mingw64/include/sec_api/stdio_s.h \
-  C:/msys64/mingw64/lib/clang/19/include/stdarg.h \
-  C:/msys64/mingw64/include/stdarg.h \
-  C:/msys64/mingw64/lib/clang/19/include/__stdarg_header_macro.h \
-  C:/msys64/mingw64/lib/clang/19/include/__stdarg___gnuc_va_list.h \
-  C:/msys64/mingw64/lib/clang/19/include/__stdarg_va_list.h \
-  C:/msys64/mingw64/lib/clang/19/include/__stdarg_va_arg.h \
-  C:/msys64/mingw64/lib/clang/19/include/__stdarg___va_copy.h \
-  C:/msys64/mingw64/lib/clang/19/include/__stdarg_va_copy.h \
-  C:/msys64/mingw64/include/string.h \
-  C:/msys64/mingw64/include/sec_api/string_s.h \
-  C:/msys64/mingw64/include/c++/14.2.0/math.h \
-  C:/msys64/mingw64/include/c++/14.2.0/cmath \
-  C:/msys64/mingw64/include/c++/14.2.0/bits/requires_hosted.h \
-  C:/msys64/mingw64/include/c++/14.2.0/bits/cpp_type_traits.h \
-  C:/msys64/mingw64/include/c++/14.2.0/ext/type_traits.h \
-  C:/msys64/mingw64/include/math.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/version.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/specfun.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/stl_algobase.h \
@@ -82,4 +66,22 @@ CMakeFiles/main.dir/src/include/write.cpp.obj: \
   C:/msys64/mingw64/include/c++/14.2.0/tr1/poly_hermite.tcc \
   C:/msys64/mingw64/include/c++/14.2.0/tr1/poly_laguerre.tcc \
   C:/msys64/mingw64/include/c++/14.2.0/tr1/riemann_zeta.tcc \
+  C:/minecraft_skin_volumetric_generator/src/include/stb_image_write.h \
+  C:/msys64/mingw64/include/c++/14.2.0/cstdlib \
+  C:/msys64/mingw64/include/stdio.h \
+  C:/msys64/mingw64/include/corecrt_stdio_config.h \
+  C:/msys64/mingw64/include/_mingw_off_t.h \
+  C:/msys64/mingw64/include/swprintf.inl \
+  C:/msys64/mingw64/include/sec_api/stdio_s.h \
+  C:/msys64/mingw64/lib/clang/19/include/stdarg.h \
+  C:/msys64/mingw64/include/stdarg.h \
+  C:/msys64/mingw64/lib/clang/19/include/__stdarg_header_macro.h \
+  C:/msys64/mingw64/lib/clang/19/include/__stdarg___gnuc_va_list.h \
+  C:/msys64/mingw64/lib/clang/19/include/__stdarg_va_list.h \
+  C:/msys64/mingw64/lib/clang/19/include/__stdarg_va_arg.h \
+  C:/msys64/mingw64/lib/clang/19/include/__stdarg___va_copy.h \
+  C:/msys64/mingw64/lib/clang/19/include/__stdarg_va_copy.h \
+  C:/msys64/mingw64/include/string.h \
+  C:/msys64/mingw64/include/sec_api/string_s.h \
+  C:/msys64/mingw64/include/c++/14.2.0/math.h \
   C:/msys64/mingw64/include/assert.h

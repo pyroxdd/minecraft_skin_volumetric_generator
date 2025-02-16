@@ -128,6 +128,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+src/include/call.obj: src/include/call.cpp.obj
+.PHONY : src/include/call.obj
+
+# target to build an object file
+src/include/call.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/include/call.cpp.obj
+.PHONY : src/include/call.cpp.obj
+
+src/include/call.i: src/include/call.cpp.i
+.PHONY : src/include/call.i
+
+# target to preprocess a source file
+src/include/call.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/include/call.cpp.i
+.PHONY : src/include/call.cpp.i
+
+src/include/call.s: src/include/call.cpp.s
+.PHONY : src/include/call.s
+
+# target to generate assembly for a file
+src/include/call.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/include/call.cpp.s
+.PHONY : src/include/call.cpp.s
+
 src/include/main.obj: src/include/main.cpp.obj
 .PHONY : src/include/main.obj
 
@@ -185,6 +209,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main
+	@echo ... src/include/call.obj
+	@echo ... src/include/call.i
+	@echo ... src/include/call.s
 	@echo ... src/include/main.obj
 	@echo ... src/include/main.i
 	@echo ... src/include/main.s

@@ -1,0 +1,178 @@
+void a(color *inner, color *outer, ivec3 world_pos, ivec2 plane_pos, ivec2 plane_size, DIRECTION dir, PART part){
+    double dist = distance(world_pos.x, world_pos.y, world_pos.z, 0 - 0.5, 0 - 0.5, -12 - 0.5);
+    if (int(dist) % 6 < 3) {
+        outer->r = 255;
+        outer->a = 255;
+    }
+}
+
+void b(color *inner, color *outer, ivec3 world_pos, ivec2 plane_pos, ivec2 plane_size, DIRECTION dir, PART part){
+    static FastNoiseLite noise;
+    static bool ready = false;
+    if (!ready){
+        ready = true;
+        noise.SetSeed(451937);
+        noise.SetNoiseType(FastNoiseLite::NoiseType_OpenSimplex2);
+        noise.SetFrequency(0.1f);
+    }
+
+    double v = noise.GetNoise(float(world_pos.x), float(world_pos.y), float(world_pos.z));
+    if (v > 0.3){
+        outer->r = 255;
+        outer->g = 255;
+        outer->b = 255;
+        outer->a = 255;
+    }
+}
+
+void c(color *inner, color *outer, ivec3 world_pos, ivec2 plane_pos, ivec2 plane_size, DIRECTION dir, PART part){
+    static FastNoiseLite noise;
+    static bool ready = false;
+    if (!ready){
+        ready = true;
+        noise.SetSeed(451937);
+        noise.SetNoiseType(FastNoiseLite::NoiseType_OpenSimplex2);
+        noise.SetFrequency(0.03f);
+    }
+
+    double dv = (noise.GetNoise(float(world_pos.x), float(world_pos.y), float(world_pos.z)) + 1) / 2;
+    
+    inner->r = 255;
+    inner->g = (1 - dv) * 255;
+    inner->b = dv * 255;
+}
+
+void d(color *inner, color *outer, ivec3 world_pos, ivec2 plane_pos, ivec2 plane_size, DIRECTION dir, PART part){
+    static FastNoiseLite noise;
+    static bool ready = false;
+    if (!ready){
+        ready = true;
+        noise.SetSeed(73458);
+        noise.SetNoiseType(FastNoiseLite::NoiseType_OpenSimplex2);
+        noise.SetFrequency(0.07f);
+    }
+    double off_scale = 1;
+    double off_x = noise.GetNoise(float(world_pos.x * off_scale + 19972), float(world_pos.y * off_scale + 978913), float(world_pos.z * off_scale + 127630));
+
+    double off_y = noise.GetNoise(float(world_pos.x * off_scale + 786412), float(world_pos.y * off_scale + 45738), float(world_pos.z * off_scale + 768431));
+
+    double off_z = noise.GetNoise(float(world_pos.x * off_scale + 334761), float(world_pos.y * off_scale + 897566), float(world_pos.z * off_scale + 561974));
+    double off_mult = 8.3;
+    double dv = (noise.GetNoise(float(world_pos.x) + off_x * off_mult, float(world_pos.y) + off_y * off_mult, float(world_pos.z) + off_z * off_mult) + 1) / 2;
+    
+    inner->r = 255;
+    inner->g = (1 - dv) * 255;
+    inner->b = dv * 255;
+
+    if (dv < 0.4){
+        outer->r = inner->r;
+        outer->g = inner->g;
+        outer->b = inner->b;
+        outer->a = 255;
+    }
+}
+
+void e(color *inner, color *outer, ivec3 world_pos, ivec2 plane_pos, ivec2 plane_size, DIRECTION dir, PART part){
+    switch (dir){
+        case LEFT:
+            *inner = color{.r = 0, .g = 0, .b = 255, .a = 255};
+            break;
+        case RIGHT:
+            *inner = color{.r = 255, .g = 0, .b = 255, .a = 255};
+            break;
+        case UP:
+            *inner = color{.r = 0, .g = 255, .b = 0, .a = 255};
+            break;
+        case DOWN:
+            *inner = color{.r = 255, .g = 0, .b = 0, .a = 255};
+            break;
+        case FRONT:
+            *inner = color{.r = 255, .g = 255, .b = 0, .a = 255};
+            break;
+        case BACK:
+            *inner = color{.r = 0, .g = 255, .b = 255, .a = 255};
+            break;
+    }
+    if ((plane_pos.x + plane_pos.y) % 2){
+        switch (part){
+            case HEAD:
+                *outer = color{.r = 255, .g = 0, .b = 0, .a = 255};
+                break;
+            case CHEST:
+                *outer = color{.r = 0, .g = 255, .b = 0, .a = 255};
+                break;
+            case LEFT_ARM:
+                *outer = color{.r = 0, .g = 0, .b = 255, .a = 255};
+                break;
+            case RIGHT_ARM:
+                *outer = color{.r = 255, .g = 0, .b = 255, .a = 255};
+                break;
+            case LEFT_LEG:
+                *outer = color{.r = 255, .g = 255, .b = 0, .a = 255};
+                break;
+            case RIGHT_LEG:
+                *outer = color{.r = 0, .g = 255, .b = 255, .a = 255};
+                break;
+        }
+    }
+}
+
+void f(color *inner, color *outer, ivec3 world_pos, ivec2 plane_pos, ivec2 plane_size, DIRECTION dir, PART part){
+    if (plane_pos.x == 0 || plane_pos.y == 0 || plane_pos.x == plane_size.x - 1 || plane_pos.y == plane_size.y - 1){
+        *inner = color{.r = 255, .g = 255, .b = 255, .a = 255};
+        *outer = color{.r = 255, .g = 255, .b = 0, .a = 255};
+    }
+}
+
+void g(color *inner, color *outer, ivec3 world_pos, ivec2 plane_pos, ivec2 plane_size, DIRECTION dir, PART part){
+    unsigned char v = abs(world_pos.x + world_pos.y * 2 + world_pos.z + 15);
+    if (v < 10) v = 0;
+    else v = 255;
+    *inner = color{.r = v, .g = v, .b = v, .a = 255};
+}
+
+void h(color *inner, color *outer, ivec3 world_pos, ivec2 plane_pos, ivec2 plane_size, DIRECTION dir, PART part){
+    unsigned char v = abs(world_pos.x + world_pos.y * 2 + world_pos.z + 15) * 9.4;
+    if (v < 20) *inner = color{.r = 255, .g = 0, .b = 127, .a = 255};
+    else {
+        v *= v;
+        *inner = color{.r = v, .g = v, .b = v, .a = 255};
+    }
+}
+
+void i(color *inner, color *outer, ivec3 world_pos, ivec2 plane_pos, ivec2 plane_size, DIRECTION dir, PART part){
+    unsigned char v = abs(world_pos.x + world_pos.y * 2 + world_pos.z + 14);
+    v *= v;
+    *inner = color{.r = (unsigned char)(255 - v), .g = (unsigned char)(v * v), .b = (unsigned char)(v * v * v), .a = 255};
+}
+
+void j(color *inner, color *outer, ivec3 world_pos, ivec2 plane_pos, ivec2 plane_size, DIRECTION dir, PART part){
+    double v = world_pos.x + world_pos.y * 2 + world_pos.z + 14;
+    
+    if (v < 0){
+        v *= -1;
+        unsigned char z = 0;
+        if (v > 10) z = v * v * v * 4.7 - 10;
+        *inner = color{.r = (unsigned char)(v * v * v), .g = z, .b = (unsigned char)(v * v), .a = 255};
+        if ((unsigned char)(v * v * v) > 46 && (unsigned char)(v * v * v) < 57) *outer = color{.r = (unsigned char)(v * v * v * v * v * v * v * v), .g = (unsigned char)(v * v * v * v), .b = (unsigned char)(v * v * v * v * v), .a = 255};
+    } else {
+        unsigned char z = 0;
+        if (v > 10) z = v * v * v * 6.1 - 10;
+        *inner = color{.r = z, .g = (unsigned char)(v * v), .b = (unsigned char)(v * v * v), .a = 255};
+        if ((unsigned char)(v * v * v * v * v * v * v) > 220 || ((unsigned char)(v * v * v * v * v * v * v) < 128 && (unsigned char)(v * v * v * v * v * v * v) > 100)) *outer = color{.r = (unsigned char)(255 - v * v * v * -982.736), .g = (unsigned char)(192 + v * v * v * 13.7), .a = 255};
+    }
+}
+
+void k(color *inner, color *outer, ivec3 world_pos, ivec2 plane_pos, ivec2 plane_size, DIRECTION dir, PART part){
+    double v = distance(world_pos.x, world_pos.y, world_pos.z, 0, 8, -16);
+    // if ((int)(v) % 8 < 2) v = 0;
+    // else v = 255;
+    double iv = pow((sin(v) + 1) / 2, 4) * 255;
+    *inner = color{.r = (unsigned char)(iv), .g = (unsigned char)(iv), .b = (unsigned char)(iv * 0.9 + 25), .a = 255};
+    double ov = 9 - v;
+    if (ov < 0) ov = 0;
+    else {
+        ov *= 25;
+        *outer = color{.r = (unsigned char)(255), .g = (unsigned char)(127 + (1 - pow(1 - ov / 255, 3)) * 127), .b = (unsigned char)(ov), .a = 255};
+    }
+}

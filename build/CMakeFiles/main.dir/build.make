@@ -68,11 +68,26 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
+CMakeFiles/main.dir/src/include/call.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/include/call.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/include/call.cpp.obj: C:/minecraft_skin_volumetric_generator/src/include/call.cpp
+CMakeFiles/main.dir/src/include/call.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\minecraft_skin_volumetric_generator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/include/call.cpp.obj"
+	C:\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/include/call.cpp.obj -MF CMakeFiles\main.dir\src\include\call.cpp.obj.d -o CMakeFiles\main.dir\src\include\call.cpp.obj -c C:\minecraft_skin_volumetric_generator\src\include\call.cpp
+
+CMakeFiles/main.dir/src/include/call.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/include/call.cpp.i"
+	C:\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\minecraft_skin_volumetric_generator\src\include\call.cpp > CMakeFiles\main.dir\src\include\call.cpp.i
+
+CMakeFiles/main.dir/src/include/call.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/include/call.cpp.s"
+	C:\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\minecraft_skin_volumetric_generator\src\include\call.cpp -o CMakeFiles\main.dir\src\include\call.cpp.s
+
 CMakeFiles/main.dir/src/include/main.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/include/main.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/include/main.cpp.obj: C:/minecraft_skin_volumetric_generator/src/include/main.cpp
 CMakeFiles/main.dir/src/include/main.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\minecraft_skin_volumetric_generator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/include/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\minecraft_skin_volumetric_generator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/include/main.cpp.obj"
 	C:\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/include/main.cpp.obj -MF CMakeFiles\main.dir\src\include\main.cpp.obj.d -o CMakeFiles\main.dir\src\include\main.cpp.obj -c C:\minecraft_skin_volumetric_generator\src\include\main.cpp
 
 CMakeFiles/main.dir/src/include/main.cpp.i: cmake_force
@@ -87,7 +102,7 @@ CMakeFiles/main.dir/src/include/write.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/include/write.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/include/write.cpp.obj: C:/minecraft_skin_volumetric_generator/src/include/write.cpp
 CMakeFiles/main.dir/src/include/write.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\minecraft_skin_volumetric_generator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/include/write.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\minecraft_skin_volumetric_generator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/include/write.cpp.obj"
 	C:\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/include/write.cpp.obj -MF CMakeFiles\main.dir\src\include\write.cpp.obj.d -o CMakeFiles\main.dir\src\include\write.cpp.obj -c C:\minecraft_skin_volumetric_generator\src\include\write.cpp
 
 CMakeFiles/main.dir/src/include/write.cpp.i: cmake_force
@@ -100,19 +115,21 @@ CMakeFiles/main.dir/src/include/write.cpp.s: cmake_force
 
 # Object files for target main
 main_OBJECTS = \
+"CMakeFiles/main.dir/src/include/call.cpp.obj" \
 "CMakeFiles/main.dir/src/include/main.cpp.obj" \
 "CMakeFiles/main.dir/src/include/write.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
+main.exe: CMakeFiles/main.dir/src/include/call.cpp.obj
 main.exe: CMakeFiles/main.dir/src/include/main.cpp.obj
 main.exe: CMakeFiles/main.dir/src/include/write.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: CMakeFiles/main.dir/linkLibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\minecraft_skin_volumetric_generator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\minecraft_skin_volumetric_generator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
