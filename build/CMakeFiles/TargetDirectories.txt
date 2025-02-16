@@ -1,0 +1,3 @@
+C:/minecraft_skin_volumetric_generator/build/CMakeFiles/main.dir
+C:/minecraft_skin_volumetric_generator/build/CMakeFiles/edit_cache.dir
+C:/minecraft_skin_volumetric_generator/build/CMakeFiles/rebuild_cache.dir
