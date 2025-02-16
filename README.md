@@ -1,9 +1,11 @@
-**i use clang mingw64 compiler but gcc or msvc will likely work as well**
+## i use
+i use clang mingw64 compiler but gcc or msvc will likely work as well
 
-## i use:
-**cmake --build build**
-**.\build\main**
+cmake --build build
 
+.\build\main
+
+## info
 **the only thing you need to change are contents of the call function located in call.cpp**
 
 you can check example call functions in call_examples
