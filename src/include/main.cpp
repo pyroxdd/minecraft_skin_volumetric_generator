@@ -193,5 +193,5 @@ int main( int argc, char *argv[] ){
             else c->a = 0;
         }
     }
-    write("out.png", pixels, SIZE, SIZE);
+    write("out/out.png", pixels, SIZE, SIZE);
 }
