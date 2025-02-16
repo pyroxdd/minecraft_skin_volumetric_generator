@@ -35,7 +35,7 @@ ivec3 world_pos(plane p, int x, int y){
         y - side axis (from character left to right)
         z - vertical axis
 
-        plane origin is always in upper left back corner (character pov)
+        plane origin is always in upper right back corner (character pov)
     */
     ivec3 ret = p.position;
     switch (p.dir){
@@ -79,7 +79,7 @@ void set_plane(plane p){
 }
 
 int main( int argc, char *argv[] ){
-    printf("hi\n");
+    printf("adding planes\n");
 
     
 
@@ -158,17 +158,10 @@ int main( int argc, char *argv[] ){
             c->a = 0;
         }
     }
+    printf("generating\n");
     for (int i = 0; i < planes.size(); i++){
         set_plane(planes[i]);
     }
 
-    // for (int x = 0; x < SIZE; x++){//just fixing what would minecraft fix anyways
-    //     //should change it, so i can also fix transparency in inner layer
-    //     for (int y = 0; y < SIZE; y++){
-    //         color *c = &(pixels[y * SIZE + x]);
-    //         if (c->a != 0) c->a = 255;
-    //         else c->a = 0;
-    //     }
-    // }
     write("out/out.png", pixels, SIZE, SIZE);
 }
