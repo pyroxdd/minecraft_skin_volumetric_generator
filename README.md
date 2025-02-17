@@ -21,7 +21,7 @@ https://www.minecraftskins.net/skineditor
 ## info
 ***the only thing you need to change are contents of the call function located in call.cpp***
 
-you can check example call functions in call_examples\
+you can check example call functions in examples\
 the default look of the skin is full black on the inner layer and trasparent on outer layer\
 you can change boolean _slim_ to change between default skin and slim skin
 
@@ -40,13 +40,12 @@ position of pixel relative to this plane, you can use it alongside plane_size to
 ### ivec2 plane_size
 size of this plane (for example top of head is 8x8)
 ### DIRECTION dir
-direction enum (you can find it in call.h)
+direction enum (you can find it in helper.h)
 ### PART part
-body part enum (you can find it in call.h)
+body part enum (you can find it in helper.h)
 
 ## future update ideas (if a single soul likes this project)
-additional helper functions such as 3D direction\
-input skin, for example to apply filters\
+input skin or texture, for example to apply filters and add palettes\
 lua scripting, compiler won't be needed\
 automatically fix, what minecraft would fix (transparency)\
 command line interface?
