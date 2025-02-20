@@ -49,3 +49,5 @@ input skin or texture, for example to apply filters and add palettes\
 lua scripting, compiler won't be needed\
 automatically fix, what minecraft would fix (transparency)\
 command line interface?
+
+explorable skins: https://www.minecraftskins.com/profile/8398143/pyroxdd
